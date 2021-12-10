@@ -195,3 +195,22 @@ input[type=text]:focus {
  background: var(--darkGreen);
  color: var(--white);
 }
+
+@media (max-width: 600px){
+  nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .myForm{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
